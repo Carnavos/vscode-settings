@@ -1,0 +1,92 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.shell.osx": "zsh",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.cursorBlinking": "smooth",
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": 0,
+
+    // html exception for prettier
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+
+    // vim plugin
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [{
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+    }],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "editor.tabSize": 2,
+    "prettier.requireConfig": true,
+    "editor.formatOnSave": true,
+    "vim.normalModeKeyBindingsNonRecursive": [{
+            "before": ["K"],
+            "after": [],
+            "commands": [{
+                "command": ":tabnext",
+                "args": []
+            }]
+        },
+        {
+            "before": ["J"],
+            "after": [],
+            "commands": [{
+                "command": ":tabprevious",
+                "args": []
+            }]
+        }
+    ],
+    "git.autofetch": true,
+    "typescriptHero.imports.organizeOnSave": true,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (Eex)"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+    },
+    "git.confirmSync": false,
+}
